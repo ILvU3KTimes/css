@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+  p {
+    margin: 0 9em;
+    font-size: 2em;
+    font-weight: 600;
+  }
+  .landIn {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.8;
+    color: white;
+    white-space: pre;
+    span {
+      animation: landIn 0.8s ease-out both;
+    }
+  }
+}
+@keyframes landIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
