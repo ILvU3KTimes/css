@@ -1,0 +1,11 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  margin: 0; // 清除滚动条
+  // background: #222;
+  .snow-block {
+    height: 100vh;
+    width: 100vw;
+  }
+}
